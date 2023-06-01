@@ -1,0 +1,107 @@
+body {
+  background-color: #90c5e8;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #e0dae2;
+  animation: fade-in 1s ease-in;
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-card {
+  background-color: #e9fff7;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user-name {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #f4f4f4;
+}
+
+.user-email {
+  color: #ebe6ed;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+  color: #ebe2ee;
+  animation: fade-in 1s ease-in;
+}
+
+/* Estilos para los botones */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #98bdf8;
+  color: #4922d5;
+  cursor: pointer;
+  transition: background-color 0.25s, transform 0.25s;
+}
+
+button:hover {
+  background-color: #eb7f27;
+  color: #fff;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.refresh-button {
+  background-color: #3cb371;
+}
+
+.create-button {
+  background-color: #ff6347;
+}
+
+.update-button {
+  background-color: #ffd700;
+}
+
+.delete-button {
+  background-color: #dc143c;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
